@@ -46,9 +46,10 @@ final class ProfileViewController: UIViewController {
     }()
     
     private let logoutButton: UIButton = {
-        guard let image = UIImage(systemName: "ipad.and.arrow.forward") else { return UIButton() }
-        let button = UIButton.systemButton(with: image, target: nil, action: #selector(didTapLogoutButton))
-        button.tintColor = UIColor(named: "YP Red")
+        let button = UIButton()
+        guard let image = UIImage(named: "logoutButton") else { return button }
+        button.setImage(image, for: .normal)
+        button.addTarget(nil, action: #selector(didTapLogoutButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -88,5 +89,6 @@ final class ProfileViewController: UIViewController {
     
     // MARK: - Private methods
     @objc private func didTapLogoutButton() {
+        print("Logout")
     }
 }
