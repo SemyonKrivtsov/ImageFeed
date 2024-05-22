@@ -144,7 +144,7 @@
                                 </connections>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-9Q-PEM">
-                                <rect key="frame" x="8" y="8" width="48" height="48"/>
+                                <rect key="frame" x="9" y="9" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="Idb-dR-QsS"/>
                                     <constraint firstAttribute="height" constant="48" id="zOI-5T-SNz"/>
@@ -156,10 +156,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5B-kd-9wY">
-                                <rect key="frame" x="171" y="785" width="51" height="51"/>
+                                <rect key="frame" x="171.66666666666666" y="772" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="51" id="Qo6-f6-Qh3"/>
-                                    <constraint firstAttribute="height" constant="51" id="ZnM-gm-3Fq"/>
+                                    <constraint firstAttribute="width" constant="50" id="Qo6-f6-Qh3"/>
+                                    <constraint firstAttribute="height" constant="50" id="ZnM-gm-3Fq"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="sharing_button"/>
@@ -171,12 +171,12 @@
                         <viewLayoutGuide key="safeArea" id="Liz-kL-0mh"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
-                            <constraint firstItem="Liz-kL-0mh" firstAttribute="bottom" secondItem="r5B-kd-9wY" secondAttribute="bottom" constant="16" id="5vn-3B-CYC"/>
+                            <constraint firstItem="Liz-kL-0mh" firstAttribute="bottom" secondItem="r5B-kd-9wY" secondAttribute="bottom" constant="30" id="5vn-3B-CYC"/>
                             <constraint firstAttribute="bottom" secondItem="RQo-Xm-WYL" secondAttribute="bottom" id="CLa-Nb-i4S"/>
                             <constraint firstItem="RQo-Xm-WYL" firstAttribute="leading" secondItem="Liz-kL-0mh" secondAttribute="leading" id="K1J-Yj-6zX"/>
-                            <constraint firstItem="Z9e-9Q-PEM" firstAttribute="top" secondItem="Liz-kL-0mh" secondAttribute="top" constant="8" id="e0t-ho-pld"/>
+                            <constraint firstItem="Z9e-9Q-PEM" firstAttribute="top" secondItem="Liz-kL-0mh" secondAttribute="top" constant="9" id="e0t-ho-pld"/>
                             <constraint firstItem="r5B-kd-9wY" firstAttribute="centerX" secondItem="Liz-kL-0mh" secondAttribute="centerX" id="fR9-Uj-81O"/>
-                            <constraint firstItem="Z9e-9Q-PEM" firstAttribute="leading" secondItem="Liz-kL-0mh" secondAttribute="leading" constant="8" id="r0h-Qc-QsT"/>
+                            <constraint firstItem="Z9e-9Q-PEM" firstAttribute="leading" secondItem="Liz-kL-0mh" secondAttribute="leading" constant="9" id="r0h-Qc-QsT"/>
                             <constraint firstItem="Liz-kL-0mh" firstAttribute="trailing" secondItem="RQo-Xm-WYL" secondAttribute="trailing" id="seG-1u-aEv"/>
                             <constraint firstItem="RQo-Xm-WYL" firstAttribute="top" secondItem="uBl-ld-tsB" secondAttribute="top" id="xj1-re-A6G"/>
                         </constraints>
@@ -205,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hbh-RV-5nf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-260" y="449"/>
+            <point key="canvasLocation" x="-303" y="451"/>
         </scene>
     </scenes>
     <resources>
