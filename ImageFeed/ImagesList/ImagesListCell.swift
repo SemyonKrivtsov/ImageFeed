@@ -9,7 +9,7 @@ import UIKit
 
 final class ImagesListCell: UITableViewCell {
     
-    // MARK: - Static property
+    // MARK: - Static properties
     static let reuseIdentifier = "ImagesListCell"
     
     // MARK: - IBOutlets
@@ -17,7 +17,7 @@ final class ImagesListCell: UITableViewCell {
     @IBOutlet private weak var likeButton: UIButton!
     @IBOutlet private weak var dateLabel: UILabel!
     
-    // MARK: - Private property
+    // MARK: - Private properties
     private lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateStyle = .long
@@ -25,7 +25,7 @@ final class ImagesListCell: UITableViewCell {
         return formatter
     }()
     
-    // MARK: - Internal property
+    // MARK: - Internal properties
     func configCell(for cell: ImagesListCell, with indexPath: IndexPath)  {
         
         guard let image = UIImage(named: String(indexPath.row)) else {
