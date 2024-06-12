@@ -15,7 +15,7 @@ final class SplashViewController: UIViewController {
     "showAuthenticationScreen"
     private let tabBarControllerID = "TabBarViewController"
     
-    // MARK: - Life cyrcle
+    // MARK: - Life cycle
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
