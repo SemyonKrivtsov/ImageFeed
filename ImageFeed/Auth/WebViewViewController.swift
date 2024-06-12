@@ -8,10 +8,6 @@
 import UIKit
 import WebKit
 
-enum WebViewConstants {
-    static let unsplashAuthorizeURLString = "https://unsplash.com/oauth/authorize"
-}
-
 
 final class WebViewViewController: UIViewController {
     
@@ -63,7 +59,7 @@ final class WebViewViewController: UIViewController {
     
     // MARK: - Private methods
     private func loadAuthView() {
-        guard var urlComponents = URLComponents(string: WebViewConstants.unsplashAuthorizeURLString) else {
+        guard var urlComponents = URLComponents(string: Constants.unsplashAuthorizeURLString) else {
             print("loadAuthView: bad urlComponents")
             return
         }

@@ -41,7 +41,7 @@ final class OAuth2Service {
     
     // MARK: - Private methods
     private func makeOAuthTokenRequest(code: String) -> URLRequest? {
-        guard let baseURL = URL(string: "https://unsplash.com") else {
+        guard let baseURL = Constants.baseURL else {
             print("Bad baseURL")
             return nil
         }
